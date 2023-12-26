@@ -19,3 +19,7 @@ Link to deployed code:  <https://github.com/shannontice/Basic-Coding-Quiz>
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
+![The Coding Quiz includes a cover page with a link to the highscores page and a button to start the quiz.](./images/CoverPage.png)
+![The Coding Quiz has multiple questions each of which offer four possible answers to choose from and will provide feedback once an answer has been selected by the user](./images/QuizQuestions.png)
+![The Coding Quiz includes a final score page that allows you to save your name and score once you have completed the quiz.](./images/SaveScore.png)
+
