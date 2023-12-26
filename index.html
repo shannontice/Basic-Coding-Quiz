@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Coding Quiz</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <!-- Create header that contains timer and highscore data -->
+    <header class="row justify-between">
+
+        <a href="./highscores.html">Highscores</a>
+        <h2 class="current-time">Time Remaining: 60</h2>
+
+    </header>
+    <!-- Create first section that includes intro information and button to begin the quiz -->
+    <section class="text-center start-quiz">
+        <h2>Beginner JavaScript Quiz</h2>
+        <p>Quiz to test your basic JavaScript knowledge. Click start to begin and goodluck!</p>
+        <button id="start">Start Quiz</button>
+    </section>
+
+    <!--Create section to contian question text and choices -->
+    <section class="text-center display-questions hide">
+        <h2 class="question-text"></h2>
+        <div class="answer-choices"></div>
+        <p class="check-answer"></p>
+    </section>
+
+    <!-- Create final page to show final score and allow you to enter your score -->
+    <section class="text-center enter-score hide">
+        <h2 class="final-score"></h2>
+        <p>You did it! Click to save your final score below!</p>
+        <input id="user-name" type="text" placeholder="Enter your name">
+        <button id="save">Save</button>
+    </section>
+    
+    
+    <script src="JavaScript/questions.js"></script>
+    <script src="JavaScript/script.js"></script>
+
+</body>
+
+</html>
